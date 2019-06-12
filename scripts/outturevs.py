@@ -118,9 +118,9 @@ xm1=4200
 amp=0.15
 for i in range(n):
      if np.abs(x[i]-xm1)<500:
-            vs[i]=4500-4500.0*amp*np.random.randn()
+            vs[i]=3500-3500.0*amp*np.random.randn()
      else:
-            vs[i]=5500
+            vs[i]=3500
 #vsrand = copy.copy(vs)
 #for i in range(n):
 #  vsrand[i]=vs[i]*amp*2.3*np.random.randn()
